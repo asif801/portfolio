@@ -22,10 +22,8 @@ const About = () => {
                         <div className="p-2">
                             <div className="text-gray-700 my-3">
                                 <p className="text-justify leading-7 w-11/12 mx-auto">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-                                    eos, quam vel quisquam, explicabo sit labore dignissimos optio
-                                    ratione quibusdam doloribus pariatur consequuntur sint.
-                                    Reprehenderit cupiditate possimus facere quasi voluptatem?
+                                    I never believe that a person who success in life and fill up his aim without proper planning,hardworking and perseveration.I would like to get a success in my life by proper planning,
+                                    hardworking and perseveration.It is not only hope but also my believe that I would able to success in my life.I would also like to do my job honestly.
                                 </p>
                                 <div className="flex mt-10 items-center gap-7">
                                     {info.map((content) => (
@@ -40,7 +38,9 @@ const About = () => {
                                 </div>
                                 <br />
                                 <br />
-                                <a href="./src/assets/Code_a_program.pdf" download>
+                                <a target="_blank"
+                                href="https://drive.google.com/file/d/1nytnEAvHUipyKwYyCYiqTAeAGKon1lkl/view?usp=share_link"
+                                class="main-btn">
                                     <button className="btn btn-success">Download CV</button>
                                 </a>
                             </div>

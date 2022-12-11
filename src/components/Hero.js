@@ -19,10 +19,10 @@ const Hero = () => {
                                 Hello!
                                 <br />
                             </span>
-                            My Name is <span>kamrul Hasan</span>
+                            My Name is <span>Meherub Hossain Asif</span>
                         </h1>
                         <h4 className="md:text-2xl text-lg md:leading-normal leading-5 mt-4 font-bold text-gray-600">
-                            Fullstack Developer
+                            Front-end Developer
                         </h4>
                         <button className="btn btn-success font-bold mt-8">Contact Me</button>
                         <div className="mt-8 text-3xl flex items-center md:justify-start justify-center gap-5">

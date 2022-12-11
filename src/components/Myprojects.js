@@ -14,34 +14,34 @@ const Myprojects = () => {
     const projects = [
         {
             img: project1,
-            name: "Movie App",
-            github_link: "https://github.com/Sridhar-C-25",
-            live_link: "https://myreactflix.netlify.app",
+            name: "Second Hand Car Buy-Sell",
+            github_link: "https://github.com/asif801/carbs",
+            live_link: "https://carbs-1687c.web.app/",
         },
         {
             img: project2,
             name: "Job search Web App",
-            github_link: "https://github.com/Sridhar-C-25/jobsearchapp",
+            github_link: "https://github.com/asif801/sell_phones_client",
             live_link: "https://myjobsearch.netlify.app",
         },
         {
             img: project3,
             name: "Highking",
-            github_link: "https://github.com/Sridhar-C-25/highking",
+            github_link: "https://github.com/asif801/tutor_client",
             live_link: "https://highking01.netlify.app",
         },
         {
             img: project4,
-            name: "React Nav",
+            name: "World Cup 2022",
             github_link:
-                "https://github.com/Sridhar-C-25/reacttailwindnavbar-with-dropdown",
-            live_link: "https://reacttailwindnavbar.netlify.app",
+                "https://github.com/asif801/world_cup_2022",
+            live_link: "https://calm-malabi-dd2a4e.netlify.app",
         },
         {
             img: project5,
-            name: "Vue Country",
-            github_link: "https://github.com/Sridhar-C-25",
-            live_link: "https://vuecountry05.netlify.app",
+            name: "Tech Website",
+            github_link: "https://github.com/asif801/asif_tech_website",
+            live_link: "https://asifwebtech.netlify.app",
         },
     ];
     return (
@@ -79,9 +79,7 @@ const Myprojects = () => {
                                         <img src={project_info.img} alt="" className="rounded-lg" />
                                         <h3 className="text-xl my-4">{project_info.name}</h3>
                                         <div className="flex gap-3">
-                                            <a
-                                                href={project_info.github_link}
-                                                target="_blank"
+                                            <a href={project_info.github_link} target="_blank"
                                                 className="text-cyan-600 bg-gray-800 px-2 py-1 inline-block"
                                             >
                                                 Github

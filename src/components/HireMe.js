@@ -17,10 +17,7 @@ const HireMe = () => {
                             Do you want any work from me?
                         </h2>
                         <p className="lg:text-left text-justify max-w-lg text-sm mt-4 text-gray-200 leading-6">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dicta
-                            soluta quos tempore eos accusamus cupiditate, amet in similique
-                            sapiente obcaecati odio deleniti architecto corporis ratione.
-                            Consequatur a quidem maiores!
+                            I never believe that a person who success in life and fill up his aim without proper planning, hardworking and perseveration.I would like to get a success in my life by proper planning & hardworking.
                         </p>
                         <button className="btn btn-success mt-10">Say Hello</button>
                     </div>

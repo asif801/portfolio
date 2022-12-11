@@ -26,7 +26,7 @@ const Navber = () => {
                 <div className="flex items-center justify-between">
                     <div className="mx-7">
                         <h4 className="text-4xl uppercase font-bold">
-                            KA<span className="text-green-500">MR</span>UL
+                            AS<span className="text-green-500">IF</span>
                         </h4>
                     </div>
                     <div
